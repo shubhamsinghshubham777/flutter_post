@@ -6,7 +6,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_post/features/authentication/provider/authentication_provider.dart';
 import 'package:flutter_post/features/authentication/view/authentication_screen.dart';
-import 'package:flutter_post/features/posts/provider/dashboard_screen.dart';
+import 'package:flutter_post/features/posts/view/dashboard_screen.dart';
 import 'package:flutter_post/utils.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

@@ -31,6 +31,14 @@ class AuthenticationState extends _$AuthenticationState {
       return credential.user.toFlutterPostUser();
     });
   }
+
+  Future<void> signOut() async {
+    state = const AsyncValue.loading();
+    state = await AsyncValue.guard(() async {
+      await FirebaseAuth.instance.signOut();
+      return null;
+    });
+  }
 }
 
 extension on User? {

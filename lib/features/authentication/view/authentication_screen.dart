@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_post/extensions.dart';
 import 'package:flutter_post/features/authentication/provider/authentication_provider.dart';
-import 'package:flutter_post/features/posts/provider/dashboard_screen.dart';
+import 'package:flutter_post/features/posts/view/dashboard_screen.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class AuthenticationScreen extends ConsumerStatefulWidget {
