@@ -16,6 +16,7 @@ dependencies:
   flutter_riverpod: ^2.6.1
   freezed_annotation: ^2.4.4
   hive_ce: ^2.9.0
+  hive_ce_flutter: ^2.2.0
   internet_connection_checker: ^3.0.1
   json_annotation: ^4.9.0
   riverpod_annotation: ^2.6.1
