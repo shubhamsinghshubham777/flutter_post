@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_post/extensions.dart';
 import 'package:flutter_post/features/authentication/provider/authentication_provider.dart';
 import 'package:flutter_post/features/posts/view/dashboard_screen.dart';
+import 'package:flutter_post/utils/extensions.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class AuthenticationScreen extends ConsumerStatefulWidget {
@@ -29,7 +29,7 @@ class _AuthenticationScreenState extends ConsumerState<AuthenticationScreen> {
             context.pushScreenReplacement(const DashboardScreen());
           }
         },
-        error: (error, _) {
+        error: (error, stackTrace) {
           if (error is FirebaseAuthException) {
             final error = state.error as FirebaseAuthException;
             context.showSimpleSnackbar(error.message);
