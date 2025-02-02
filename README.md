@@ -2,6 +2,10 @@
 
 Your mini social-media stop shop.
 
+## Demo
+
+https://github.com/user-attachments/assets/b6d0bb09-d56d-4e2a-a5f9-2089948b78f2
+
 ## Screenshots
 
 > **Note:** A demo build named `app-release.apk` is available inside the `demo_build` package.
