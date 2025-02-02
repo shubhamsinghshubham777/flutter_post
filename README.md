@@ -4,6 +4,9 @@ Your mini social-media stop shop.
 
 ## Screenshots
 
+> **Note:** A demo build named `app-release.apk` is available inside the `demo_build` package.
+Install it to quickly be able to use the app without having to build the project.
+
 <img src="assets/screenshots/authentication.png" width=250> <img src="assets/screenshots/dashboard.png" width=250> <img src="assets/screenshots/new_post.png" width=250>
 
 ## Getting Started
