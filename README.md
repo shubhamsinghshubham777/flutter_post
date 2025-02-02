@@ -2,6 +2,10 @@
 
 Your mini social-media stop shop.
 
+## Screenshots
+
+<img src="assets/screenshots/authentication.png" width=250> <img src="assets/screenshots/dashboard.png" width=250> <img src="assets/screenshots/new_post.png" width=250>
+
 ## Getting Started
 
 The project was created using Flutter `3.27.2` and Dart `3.6.1`.
